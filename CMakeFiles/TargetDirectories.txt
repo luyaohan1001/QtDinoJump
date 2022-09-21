@@ -1,0 +1,4 @@
+/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/QtDinoJump.dir
+/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/edit_cache.dir
+/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/rebuild_cache.dir
+/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/QtDinoJump_autogen.dir
