@@ -142,6 +142,30 @@ QtDinoJump_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump_autogen.dir/build.make CMakeFiles/QtDinoJump_autogen.dir/build
 .PHONY : QtDinoJump_autogen/fast
 
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.o: QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o
+.PHONY : QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.o
+
+# target to build an object file
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o
+.PHONY : QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o
+
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.i: QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i
+.PHONY : QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.i
+
+# target to preprocess a source file
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i
+.PHONY : QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i
+
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.s: QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s
+.PHONY : QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.s
+
+# target to generate assembly for a file
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s
+.PHONY : QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s
+
 QtDinoJump_autogen/mocs_compilation.o: QtDinoJump_autogen/mocs_compilation.cpp.o
 .PHONY : QtDinoJump_autogen/mocs_compilation.o
 
@@ -165,6 +189,54 @@ QtDinoJump_autogen/mocs_compilation.s: QtDinoJump_autogen/mocs_compilation.cpp.s
 QtDinoJump_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.s
 .PHONY : QtDinoJump_autogen/mocs_compilation.cpp.s
+
+cactus.o: cactus.cpp.o
+.PHONY : cactus.o
+
+# target to build an object file
+cactus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/cactus.cpp.o
+.PHONY : cactus.cpp.o
+
+cactus.i: cactus.cpp.i
+.PHONY : cactus.i
+
+# target to preprocess a source file
+cactus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/cactus.cpp.i
+.PHONY : cactus.cpp.i
+
+cactus.s: cactus.cpp.s
+.PHONY : cactus.s
+
+# target to generate assembly for a file
+cactus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/cactus.cpp.s
+.PHONY : cactus.cpp.s
+
+dinosaur.o: dinosaur.cpp.o
+.PHONY : dinosaur.o
+
+# target to build an object file
+dinosaur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o
+.PHONY : dinosaur.cpp.o
+
+dinosaur.i: dinosaur.cpp.i
+.PHONY : dinosaur.i
+
+# target to preprocess a source file
+dinosaur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/dinosaur.cpp.i
+.PHONY : dinosaur.cpp.i
+
+dinosaur.s: dinosaur.cpp.s
+.PHONY : dinosaur.s
+
+# target to generate assembly for a file
+dinosaur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDinoJump.dir/build.make CMakeFiles/QtDinoJump.dir/dinosaur.cpp.s
+.PHONY : dinosaur.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -224,9 +296,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... QtDinoJump_autogen"
 	@echo "... QtDinoJump"
+	@echo "... QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.o"
+	@echo "... QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.i"
+	@echo "... QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.s"
 	@echo "... QtDinoJump_autogen/mocs_compilation.o"
 	@echo "... QtDinoJump_autogen/mocs_compilation.i"
 	@echo "... QtDinoJump_autogen/mocs_compilation.s"
+	@echo "... cactus.o"
+	@echo "... cactus.i"
+	@echo "... cactus.s"
+	@echo "... dinosaur.o"
+	@echo "... dinosaur.i"
+	@echo "... dinosaur.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

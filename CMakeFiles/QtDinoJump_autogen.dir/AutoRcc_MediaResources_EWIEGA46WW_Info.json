@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/luyaohan1001/Projects/QtDinoJump/QtDinoJump_autogen",
+	"CMAKE_BINARY_DIR" : "/home/luyaohan1001/Projects/QtDinoJump",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/luyaohan1001/Projects/QtDinoJump",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/luyaohan1001/Projects/QtDinoJump",
+	"CMAKE_SOURCE_DIR" : "/home/luyaohan1001/Projects/QtDinoJump",
+	"INCLUDE_DIR" : "/home/luyaohan1001/Projects/QtDinoJump/QtDinoJump_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/luyaohan1001/Projects/QtDinoJump/media/icons/dino_LeftFootUp.png",
+		"/home/luyaohan1001/Projects/QtDinoJump/media/icons/cactus.png",
+		"/home/luyaohan1001/Projects/QtDinoJump/media/icons/dino.png",
+		"/home/luyaohan1001/Projects/QtDinoJump/media/icons/dino_RightFootUp.png",
+		"/home/luyaohan1001/Projects/QtDinoJump/media/icons/dino.bmp"
+	],
+	"LOCK_FILE" : "/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/QtDinoJump_autogen.dir/AutoRcc_MediaResources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "MediaResources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_MediaResources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/QtDinoJump_autogen.dir/AutoRcc_MediaResources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/luyaohan1001/Projects/QtDinoJump/MediaResources.qrc",
+	"VERBOSITY" : 0
+}

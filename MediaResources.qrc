@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>media/icons/dino.bmp</file>
+        <file>media/icons/dino.png</file>
+        <file>media/icons/dino_RightFootUp.png</file>
+        <file>media/icons/dino_LeftFootUp.png</file>
+        <file>media/icons/cactus.png</file>
+    </qresource>
+</RCC>

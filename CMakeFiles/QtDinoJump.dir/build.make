@@ -69,10 +69,21 @@ include CMakeFiles/QtDinoJump.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QtDinoJump.dir/flags.make
 
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: MediaResources.qrc
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: CMakeFiles/QtDinoJump_autogen.dir/AutoRcc_MediaResources_EWIEGA46WW_Info.json
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: media/icons/dino_LeftFootUp.png
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: media/icons/cactus.png
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: media/icons/dino.png
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: media/icons/dino_RightFootUp.png
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: media/icons/dino.bmp
+QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp: /usr/lib/qt5/bin/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for MediaResources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/QtDinoJump_autogen.dir/AutoRcc_MediaResources_EWIEGA46WW_Info.json 
+
 CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o: CMakeFiles/QtDinoJump.dir/flags.make
 CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o: QtDinoJump_autogen/mocs_compilation.cpp
 CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o: CMakeFiles/QtDinoJump.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o -MF CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o -c /home/luyaohan1001/Projects/QtDinoJump/QtDinoJump_autogen/mocs_compilation.cpp
 
 CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.i: cmake_force
@@ -86,7 +97,7 @@ CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/QtDinoJump.dir/main.cpp.o: CMakeFiles/QtDinoJump.dir/flags.make
 CMakeFiles/QtDinoJump.dir/main.cpp.o: main.cpp
 CMakeFiles/QtDinoJump.dir/main.cpp.o: CMakeFiles/QtDinoJump.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QtDinoJump.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QtDinoJump.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtDinoJump.dir/main.cpp.o -MF CMakeFiles/QtDinoJump.dir/main.cpp.o.d -o CMakeFiles/QtDinoJump.dir/main.cpp.o -c /home/luyaohan1001/Projects/QtDinoJump/main.cpp
 
 CMakeFiles/QtDinoJump.dir/main.cpp.i: cmake_force
@@ -97,10 +108,38 @@ CMakeFiles/QtDinoJump.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtDinoJump.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luyaohan1001/Projects/QtDinoJump/main.cpp -o CMakeFiles/QtDinoJump.dir/main.cpp.s
 
+CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o: CMakeFiles/QtDinoJump.dir/flags.make
+CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o: dinosaur.cpp
+CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o: CMakeFiles/QtDinoJump.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o -MF CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o.d -o CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o -c /home/luyaohan1001/Projects/QtDinoJump/dinosaur.cpp
+
+CMakeFiles/QtDinoJump.dir/dinosaur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtDinoJump.dir/dinosaur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luyaohan1001/Projects/QtDinoJump/dinosaur.cpp > CMakeFiles/QtDinoJump.dir/dinosaur.cpp.i
+
+CMakeFiles/QtDinoJump.dir/dinosaur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtDinoJump.dir/dinosaur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luyaohan1001/Projects/QtDinoJump/dinosaur.cpp -o CMakeFiles/QtDinoJump.dir/dinosaur.cpp.s
+
+CMakeFiles/QtDinoJump.dir/cactus.cpp.o: CMakeFiles/QtDinoJump.dir/flags.make
+CMakeFiles/QtDinoJump.dir/cactus.cpp.o: cactus.cpp
+CMakeFiles/QtDinoJump.dir/cactus.cpp.o: CMakeFiles/QtDinoJump.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QtDinoJump.dir/cactus.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtDinoJump.dir/cactus.cpp.o -MF CMakeFiles/QtDinoJump.dir/cactus.cpp.o.d -o CMakeFiles/QtDinoJump.dir/cactus.cpp.o -c /home/luyaohan1001/Projects/QtDinoJump/cactus.cpp
+
+CMakeFiles/QtDinoJump.dir/cactus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtDinoJump.dir/cactus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luyaohan1001/Projects/QtDinoJump/cactus.cpp > CMakeFiles/QtDinoJump.dir/cactus.cpp.i
+
+CMakeFiles/QtDinoJump.dir/cactus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtDinoJump.dir/cactus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luyaohan1001/Projects/QtDinoJump/cactus.cpp -o CMakeFiles/QtDinoJump.dir/cactus.cpp.s
+
 CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o: CMakeFiles/QtDinoJump.dir/flags.make
 CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o: mainwindow.cpp
 CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o: CMakeFiles/QtDinoJump.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o -MF CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o.d -o CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o -c /home/luyaohan1001/Projects/QtDinoJump/mainwindow.cpp
 
 CMakeFiles/QtDinoJump.dir/mainwindow.cpp.i: cmake_force
@@ -111,24 +150,44 @@ CMakeFiles/QtDinoJump.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtDinoJump.dir/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luyaohan1001/Projects/QtDinoJump/mainwindow.cpp -o CMakeFiles/QtDinoJump.dir/mainwindow.cpp.s
 
+CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o: CMakeFiles/QtDinoJump.dir/flags.make
+CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o: QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp
+CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o: CMakeFiles/QtDinoJump.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o -MF CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o.d -o CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o -c /home/luyaohan1001/Projects/QtDinoJump/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp
+
+CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luyaohan1001/Projects/QtDinoJump/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp > CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.i
+
+CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luyaohan1001/Projects/QtDinoJump/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp -o CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.s
+
 # Object files for target QtDinoJump
 QtDinoJump_OBJECTS = \
 "CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/QtDinoJump.dir/main.cpp.o" \
-"CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o"
+"CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o" \
+"CMakeFiles/QtDinoJump.dir/cactus.cpp.o" \
+"CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o" \
+"CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o"
 
 # External object files for target QtDinoJump
 QtDinoJump_EXTERNAL_OBJECTS =
 
 QtDinoJump: CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/mocs_compilation.cpp.o
 QtDinoJump: CMakeFiles/QtDinoJump.dir/main.cpp.o
+QtDinoJump: CMakeFiles/QtDinoJump.dir/dinosaur.cpp.o
+QtDinoJump: CMakeFiles/QtDinoJump.dir/cactus.cpp.o
 QtDinoJump: CMakeFiles/QtDinoJump.dir/mainwindow.cpp.o
+QtDinoJump: CMakeFiles/QtDinoJump.dir/QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp.o
 QtDinoJump: CMakeFiles/QtDinoJump.dir/build.make
 QtDinoJump: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 QtDinoJump: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 QtDinoJump: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 QtDinoJump: CMakeFiles/QtDinoJump.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable QtDinoJump"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luyaohan1001/Projects/QtDinoJump/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable QtDinoJump"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QtDinoJump.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,7 +198,7 @@ CMakeFiles/QtDinoJump.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/QtDinoJump.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/QtDinoJump.dir/clean
 
-CMakeFiles/QtDinoJump.dir/depend:
+CMakeFiles/QtDinoJump.dir/depend: QtDinoJump_autogen/EWIEGA46WW/qrc_MediaResources.cpp
 	cd /home/luyaohan1001/Projects/QtDinoJump && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luyaohan1001/Projects/QtDinoJump /home/luyaohan1001/Projects/QtDinoJump /home/luyaohan1001/Projects/QtDinoJump /home/luyaohan1001/Projects/QtDinoJump /home/luyaohan1001/Projects/QtDinoJump/CMakeFiles/QtDinoJump.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QtDinoJump.dir/depend
 
