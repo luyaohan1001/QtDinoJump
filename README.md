@@ -1,19 +1,19 @@
 #### QtDinoJump mimics the Chrome dinosaur game.
-![Example](media/docs/ChromeDinosaurGame.jpg)
+![Example](./media/docs/ChromeDinosaurGame.jpg)
 
 
 #### File Structure.	
-.
+	.
 	├── README.md
 	├── MediaResources.qrc
 	├── media
 	│   └── icons
-	│       ├── Screenshot from 2022-09-21 10-20-58.png
-	│       ├── dino_RightFootUp.png
-	│       ├── dino.png
-	│       ├── dino_LeftFootUp.png
-	│       ├── dino.bmp
-	│       └── cactus.png
+	│	   ├── Screenshot from 2022-09-21 10-20-58.png
+	│	   ├── dino_RightFootUp.png
+	│	   ├── dino.png
+	│	   ├── dino_LeftFootUp.png
+	│	   ├── dino.bmp
+	│	   └── cactus.png
 	├── Makefile
 	├── mainwindow.ui
 	├── mainwindow.h
@@ -59,13 +59,13 @@
 	│   ├── CMakeDirectoryInformation.cmake
 	│   ├── cmake.check_cache
 	│   └── 3.22.1
-	│       ├── CompilerIdCXX
-	│       │   ├── tmp
-	│       │   ├── CMakeCXXCompilerId.cpp
-	│       │   └── a.out
-	│       ├── CMakeSystem.cmake
-	│       ├── CMakeDetermineCompilerABI_CXX.bin
-	│       └── CMakeCXXCompiler.cmake
+	│	   ├── CompilerIdCXX
+	│	   │   ├── tmp
+	│	   │   ├── CMakeCXXCompilerId.cpp
+	│	   │   └── a.out
+	│	   ├── CMakeSystem.cmake
+	│	   ├── CMakeDetermineCompilerABI_CXX.bin
+	│	   └── CMakeCXXCompiler.cmake
 	├── CMakeCache.txt
 	├── cactus.h
 	└── cactus.cpp
